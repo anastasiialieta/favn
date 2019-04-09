@@ -1,0 +1,48 @@
+.store__main
+{
+background: #0A0A0A;
+height: 770px;
+background-size: cover;
+padding-top: 185px;
+overflow: hidden;
+position: relative;
+padding-left: 185px;
+}
+.store__title {
+	font: 400 96px 'Space Mono', sans-serif;
+	position: absolute;
+	text-transform: uppercase;
+	left: 10%;
+	top: -60px;
+	color: #fff;
+	overflow: hidden;
+}
+.store {
+border-bottom: 5px solid;
+color: #fff;
+}
+.img4 {
+width: 470px;
+	height: 380px;	
+}
+.img5 {
+	width: 470px;
+	height: 380px;
+}
+.group1 {
+	position: relative;
+}
+.store__desc1 {
+position: absolute;
+top: 40%;
+left: 42%;
+font: 400 14px 'Space Mono', sans-serif;
+color: #fff;
+}
+.store__desc2 {
+position: absolute;
+top: 40%;
+left: 45%;
+font: 400 14px 'Space Mono', sans-serif;
+color: #fff;
+}

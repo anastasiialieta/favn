@@ -1,0 +1,66 @@
+.band {
+	
+}
+
+.line {
+border-bottom: 5px solid;
+color: #fff;
+position: relative;
+}
+.band__main {
+	background: #0A0A0A;
+	background-size: cover;
+	padding-top: 120px;
+	padding-left: 9%;
+	padding-bottom: 60px;
+	overflow: hidden;
+	position: relative;
+}
+.band__title {
+	font: 400 96px 'Space Mono', sans-serif;
+	position: absolute;
+	text-transform: uppercase;
+	left: 10%;
+	top: -60px;
+	color: #fff;
+	overflow: hidden;
+}
+
+
+.band__container {
+	
+	display: flex;
+}
+
+.band__desc {
+	display: flex;
+	padding-top: 30px;
+	font: 400 16px $font;
+	color: #fff;
+	padding-left: 60px;	
+	padding-top: 120px;
+}
+.band__img {
+	width: 476px;
+	height: 400px;
+	margin-left: 200px;	
+}
+.line2 {
+border-bottom: 4px solid;
+color: #fff;
+position: relative;
+}
+.line__title {
+	font: 400 96px 'Space Mono', sans-serif;
+	position: absolute;
+	text-transform: uppercase;
+	left: 5%;
+	top: 93%;
+	color: #fff;
+	overflow: hidden;
+}
+
+.band__img {
+	width: 476px;
+	height: 400px;
+}

@@ -1,0 +1,63 @@
+.nav {
+	background: url('../images/start.png') no-repeat top center;
+		height: 770px;
+		background-size: cover;
+}
+.header__nav{
+		display: flex;
+		justify-content: space-around;
+		padding-top: 550px;
+	}
+	.img__wrapper {
+		display: flex;
+		padding-left: 20%;
+	}
+	
+.menu{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+
+	&__link{
+		position: relative;
+		text-decoration: none;
+		margin: 0 auto;
+		margin-left: 20px;
+	}
+
+	&__link::after{
+		content: '';
+	    border-bottom:  2px solid #fff;
+	  display: block;
+	  width: 0px;
+	  position: absolute;
+	  bottom: -12px;
+		
+	}
+
+	&__link:hover::after,
+	&__link:hover{
+	
+		width: 100%;
+ 	  transition: all .2s linear;
+	}
+
+	&__link{
+		font: 400 44px 'Space Mono', sans-serif;
+		color:#fff;
+    text-transform: uppercase;
+	}
+}
+.icon-instagram_small {
+	color: #fff;
+	font-size: 70px;
+}
+.icon-youtube_small {
+color: #fff;
+font-size: 70px;
+}
+.icon-facebook_small {
+	color: #fff;
+	font-size: 70px;
+}
+
